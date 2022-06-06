@@ -1,0 +1,64 @@
+/* Fill CSS here */
+h1{
+    color:  #0468aa;
+    text-align: center;
+    text-decoration-line: underline;
+    
+}
+
+div{
+    
+    width: 1165px;
+    height: 470px;
+    margin: auto;
+    display: flex;
+}
+form{
+    box-shadow: 10px 10px 10px 10px #bbbbbb;
+    width: 315px;
+    height: 470px;
+    border-radius: 10px;
+}
+table{
+    
+    width: 800px;
+    height: 40px;
+    margin: 0px 0px 0px 50px;
+    
+}
+th{
+    background-color: #0468aa;
+    border: 0px solid white;
+    color: white;
+    font-size: 11px;
+}
+tr{
+    width: 800px;
+    height: 30px;
+    
+}
+label{
+    font-size: 20px;
+    
+    padding: 15px;
+
+}
+input{
+    margin:7px 0px 7px 15px;
+    width: 270px;
+    height: 25px;
+    border: color #bbbbbb;
+}
+select{
+    margin:7px 0px 7px 15px;
+    width: 275px;
+    height: 33px;
+}
+#sub1{
+    background-color: #0468aa;
+    border: #0468aa;
+    width: 278px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}

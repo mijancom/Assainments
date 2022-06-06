@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Content Manipulation</title>
+</head>
+<body>
+    <input id="number1" type="number" placeholder="Enter 1st Number"> <input id="number2" type="number" placeholder="Enter 2nd Number">
+	<hr/>
+	<button onclick="setFirstName()">Add</button>
+	<button onclick="setLastName()">Subtrack</button>
+	<button onclick="setFullName()">Multiply</button>
+	<button onclick="resetDefaults()">Divide</button>
+    <p id="res">Result</p>
+	<script type="text/javascript">
+		function setFirstName() {
+			let result1 = document.getElementById("number1").value;
+            let result2 = document.getElementById("number2").value;
+            let sum = Number(result1)+Number(result2);
+            alert(sum);
+		}
+        function setLastName() {
+            let result1 = document.getElementById("number1").value;
+            let result2 = document.getElementById("number2").value;
+            let sub = Number(result1)-Number(result2);
+            alert(sub);
+
+		}
+
+		function setFullName() {
+            let result1 = document.getElementById("number1").value;
+            let result2 = document.getElementById("number2").value;
+            let mul = Number(result1) * Number(result2);
+            alert(mul);
+
+		}
+
+		function resetDefaults(){
+            let result1 = document.getElementById("number1").value;
+            let result2 = document.getElementById("number2").value;
+            let div = Number(result1) / Number(result2);
+            alert(div);
+		}
+	</script>
+</body>
+</html>
